@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="Daniel Wang's Personal Website">
+  <meta name="keywords" content="daniel wang, ucsc, uc santa cruz, student">
+  <meta name="author" content="Daniel Wang">
+  <title>Contact — Daniel Wang</title>
+  <link rel="stylesheet" href="./css/style.css">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./img/computer.png">
+  <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+	<header>
+    <div class="container">
+      <div id="branding">
+        
+      </div>
+
+      <nav> 
+        <ul>
+	 	  	  <li><a href="index.html">About Me</a></li>
+	 	  	  <li><a href="resume.html">Resume</a></li>
+	 	  	  <li><a href="testimonials.html">Testimonials</a></li>
+	 	  	  <li class="current"><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav> 
+    </div>
+  </header>
+
+  <section id="main">
+ 		<div class="container">
+ 			<article id="form">
+        <h2>Go ahead, shoot me an email and let's connect.</h2>
+        <p id="linkedin"><img src="./img/linkedin.png" width="25px"><a href="https://www.linkedin.com/in/danieljewang">LinkedIn Profile</a></p> 
+
+        <p id="email"><img src="./img/emailicon.png" width="25px"> danieljewang@gmail.com</p>
+
+
+
+        <form class="contactme" id="gform" method="POST" class="pure-form pure-form-stacked"
+        action="https://script.google.com/macros/s/AKfycbzsyXvhLtrsRuG3_sgzyYlH5WjgE7qawFcvO_YW7A9MMBww0nzY/exec">
+          <!-- <form class="contactme"> -->
+            <div id="allboxes">
+              <div id="box1">
+                <label id="namelabel" for="name">Name *</label><br>
+                  <input id="name" name="name" type="text" required>
+              </div>
+
+              <div id="box2">
+                <label id="emaillabel">Email Address *</label><br>
+                <div id="gformbox2">
+                  <input id="email" name="email" type="email" required>
+                </div>
+              </div>
+
+              <div id="box3">
+                <label id="messagelabel">Message *</label><br>
+                <div id="gformbox3">
+                  <textarea id="message" name="message" rows="10" required></textarea>
+                </div>
+              </div>
+             <button class="button_1">
+             <i></i>&nbsp;Send
+             </button>
+           </div>
+          </form>
+      </article>
+ 		</div>
+ </section>
+
+  <!-- Customise the Thankyou Message People See when they submit the form: -->
+    <div style="display:none;" id="thankyou_message">
+      <p id="response">Thank you! Look for a response in your inbox within 24 hours.</p>
+    </div>
+
+   <!-- Submit the Form to Google Using "AJAX" -->
+    <script data-cfasync="false" type="text/javascript"
+    src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
+
+    <footer>
+        <p>Copyright &copy; 2018</p>
+    </footer>
+  </body>
+</html>

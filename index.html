@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="Daniel Wang's Personal Website">
+  <meta name="keywords" content="daniel wang, ucsc, uc santa cruz, student">
+  <meta name="author" content="Daniel Wang">
+  <title>Daniel Wang</title>
+  <link rel="stylesheet" href="./css/style.css">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./img/computer.png">
+  <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+	<script>
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function() {scrollFunction()};
+
+		function scrollFunction() {
+		    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+		        document.getElementById("myBtn").style.display = "block";
+		    } else {
+		        document.getElementById("myBtn").style.display = "none";
+		    }
+		}
+
+		// When the user clicks on the button, scroll to the top of the document
+		function topFunction() {
+		    document.body.scrollTop = 0;
+		    document.documentElement.scrollTop = 0;
+		}
+	</script>
+
+	<header>
+    <div class="container">
+      <div id="branding">
+        
+      </div>
+
+      <nav> 
+        <ul>
+	 	  	  <li class="current"><a href="index.html">About Me</a></li>
+	 	  	  <li><a href="resume.html">Resume</a></li>
+	 	  	  <li><a href="testimonials.html">Testimonials</a></li>
+	 	  	  <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav> 
+    </div>
+  </header>
+
+ <section id="showcase">
+ 		<div class="container">
+ 			<h1>Daniel Wang</h1>
+ 			<p id="pbio">professional bio</p>
+ 		</div>
+ 		<div class="picsource">
+ 			<p>Photo by <a id="maghood" href = "https://maghoodphotography.com/">Mag Hood Photography</a></p>
+ 		</div>
+ </section>
+
+
+ <section id="bio">
+ 		<div class="container">
+ 			<h2 id="sectiontitle">Daniel Wang</h2>
+ 			<p>Computer Science Student at University of California, Santa Cruz</p>
+ 			<img class="img-circle" src="./img/gradpic.jpg">
+
+ 			<p>I'm an aspiring web developer with a passion for bringing ideas to life across screens. I love experimenting with HTML, CSS, and JavaScript.</p>
+ 		</div>
+ </section>
+
+ <section id="work">
+ 	<div class="container">
+ 		<h2 id="sectiontitle2">My Work</h2>
+
+ 		
+ 		<div>
+ 			<img id="companyimg" src="./img/resnet.png">
+ 		</div>
+
+ 		<div id="description">
+ 			<h3>UC Santa Cruz Residential Network Services (ResNet)</h3>
+		  <h4 id="title">Technical Support Specialist (September 2017 to Present)</h4>
+		  
+			 <p>As a ResNet technician, I'm responsible for assisting campus residents with connecting to the campus network, troubleshooting network or OS issues, and performing hands on technical support on student-owned computers. I problem solve and troubleshoot computer, network, and software-related problems and have gained experience with multiple operating systems, including Mac, Windows, and Linux.
+			 <br><br>
+			Strong communication and customer service skills are must-haves at ResNet, especially given that I interact with a diverse group of clientele with varying knowledge. The large number of students that come in to the office daily has allowed me to develop the ability to work in an extremely busy environment with frequent interruptions and still be able to prioritize tasks.
+			</p>
+	 		</div>
+
+ 		<div style="clear:left;"></div>
+
+ 		<div>
+ 			<img id="companyimg" src="./img/teamresearch.jpeg">
+ 		</div>
+
+ 		<div id="description">
+			<h3>Team Research Inc.</h3>
+		  <h4 id="title">Intern (June 2016 to September 2016, July 2017 to September 2017)</h4>
+		  
+		  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris congue in mi vehicula venenatis. Suspendisse et fringilla arcu, ut varius nulla. Fusce luctus sollicitudin mattis. Quisque fermentum odio non nunc maximus accumsan. Nam sit amet dui vel nisi sodales maximus. Pellentesque vitae neque a dui auctor malesuada. Praesent id euismod nunc. Donec lacus arcu, ullamcorper sit amet lectus non, varius tristique metus. Vivamus aliquet ex pellentesque posuere blandit. Nullam laoreet eros at nulla ornare egestas a eu neque.</p>
+
+ 		</div>
+ 	</div>
+ 	</section>
+
+<section id="passions">
+	<div class="container">
+ 		<h2 id="sectiontitle2">My Passions</h2>
+
+ 		<div>
+ 			<img id="companyimgdown" src="./img/linkcrew.jpg">
+ 		</div>
+
+ 		<div id="description">
+ 			<h3>Monta Vista High School</h3>
+		  <h4 id="title">Link Crew Leader (August 2014 to May 2016)</h4>
+		  
+		<p>
+			My strong desire to lead by example drew me to becoming a student leader through the Link Crew program at my school. Acting as a mentor for freshmen, I eased the transition for first year students into high school by providing advice on how to be successful on a multitude of levels, including academically and socially. My goal was to be a positive role model who could provide a level of support and guidance in the nerve-wracking and overwhelming world that is high school and ultimately be a facilitator for success.
+			<br><br>
+			Link Crew is a year long transition program with three major components that contribute to its success: high school orientation, academic follow ups, and social follow ups. I built a mentor relationship with a group of freshmen by sharing my experiences and lessons learned throughout my first two years of high school. Alongside that, I fostered freshman academic success and character development through structured classroom visits.
+		</p>
+ 		</div>
+
+ 		<div style="clear:left;"></div>
+
+ 		<div>
+ 			<img id="companyimg" src="./img/tedx.png">
+ 		</div>
+
+ 		<div id="description">
+			<h3>Monta Vista High School</h3>
+		  <h4 id="title">TEDx Conference 1st Place Award (May 2014)</h4>
+		  
+	  	<p>
+		  	Education has played a substantial role in my life, not only because of my various years of schooling, but also because I’ve constantly imagined different ways schools could be reinvented. One flaw I’ve perceived in education is an overemphasis on the achievement of high test scores through means of rote learning, at the cost of true understanding.
+		</p>
+		<p>
+			In my sophomore year of high school, I, along with three friends, gave a TED Talk to approximately 200 students, teachers, and parents about how we could reinvent education at our school by implementing a system of video-based learning where teachers’ lectures would be recorded and posted to a website. Students could pause or rewind lectures to their desire, allowing them to take agency over their learning and gain a deeper understanding of material. Our proposal was granted $1,000 to be implemented in the coming school years.
+			</p>
+		<p>
+			I’ve always tried to keep a quote from American biologist Leroy Hood in mind: “Don’t underestimate the power of your vision to change the world.” Ultimately, I hope to be a creator of change by utilizing my studies in computer science as a gateway to furthering the advancement of technological innovation in the educational field. 
+		</p>
+		<!--
+			<p>Click <a id ="tedvid" href="https://youtu.be/Tfig7LZs1uc">here</a> to view the video that my group and I created that was shown at the event.</p>
+		-->
+ 		</div>
+ </section>
+
+ <footer>
+		<p>Copyright &copy; 2018</p>
+	</footer>
+</body>
+</html>

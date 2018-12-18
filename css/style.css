@@ -1,0 +1,431 @@
+	body {
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:15px;
+		line-height:1.5;
+		padding:0;
+		margin:0;
+
+		background-color:#ffffff;
+	}
+
+	/* Global */
+	.container {
+		width:80%;
+		margin:auto;
+		overflow:hidden;
+	}	
+
+	ul {
+		margin:0;
+		padding:0;
+	}
+
+	.img-circle {
+		width:310px;
+		border-radius:50%;
+		margin-top:10px;
+	}
+
+	.button_1{
+		width:100px;
+		height:38px;
+		font-size:15px;
+		background:#e8491d;
+		border:0;
+		padding-left:20px;
+		padding-right:20px;
+		color:#ffffff;
+		float:left;
+		margin-left:4.3%;
+		margin-bottom: 5px;
+	}
+
+	#myBtn {
+	  display: none;
+	  position: fixed;
+	  bottom: 20px;
+	  right: 30px;
+	  z-index: 99;
+	  border: none;
+	  outline: none;
+	  background-color: #35424a;
+	  color: white;
+	  cursor: pointer;
+	  padding: 15px;
+	  border-radius: 10px;
+ 	}
+
+	#myBtn:hover {
+	  background-color: #555;
+	}
+
+	#sectiontitle {
+		text-align:center;
+	}
+
+	#sectiontitle2 {
+		text-align:center;
+		margin-bottom:5px;
+	}
+
+	/* Header */
+	header {
+		background:#35424a;
+		color:#ffffff;
+		padding-top:25px;
+		min-height:30px;
+		padding-bottom:15px;
+		border-bottom:#e8491d 3px solid;
+	}
+
+	header a {
+		color:#ffffff;
+		text-decoration:none;
+		text-transform: uppercase;
+		font-size:16px;
+	}
+
+	header nav {
+		text-align:center;
+	}
+
+	header li {
+		display:inline;
+		list-style-type:none;
+		margin: 0 5px;
+		padding: 0 20px 0 20px;
+	}
+
+	header #branding {
+		float:left;
+	}
+
+	header #branding h1 {
+		margin:0;
+	}
+
+	header nav {
+
+	}
+
+	header ul {
+		text-align:center;
+	}
+
+	header .current a {
+ 		color:#e8491d;
+ 		font-weight:bold;
+ 	}
+
+ 	header a:hover {
+ 		color:cccccc;
+ 		font-weight:bold;
+ 	}
+
+	/* Showcase */
+
+ 	#showcase {
+ 		/*min-height: 610px;*/
+ 		height:91vh;
+
+ 		/*height:500%;*/
+
+ 		background:url('../img/yosemite.jpg') center center no-repeat;
+ 		text-align:center;
+ 		color:#ffffff;
+ 		background-size:cover;
+ 	}
+
+ 	#showcase h1 {
+ 		/* margin-top:18%;*/
+ 		margin-top: 29vh;
+ 		font-size:55px;
+ 		margin-bottom:5px;
+  	}	
+  
+
+ 	#pbio {
+ 		margin-top:5px;
+ 		font-size:20px;
+ 	}
+
+ 	#maghood {
+ 		color: #0066ff;
+ 		text-decoration:none;
+ 	}
+
+ 	.picsource {
+ 		color: #ffffff;
+ 		position:absolute;
+ 		font-size:13px;
+ 		text-decoration:none;
+ 		bottom:0px;
+ 		right:10px;
+ 		margin-right: 10px;
+ 	}
+
+ 	/* Bio */
+
+ 	#bio {
+ 		text-align:center;
+ 		padding:0px;
+ 	}
+
+ 	#bio h2, #passions h2 {
+ 		font-size:40px;
+ 		margin-bottom:5px;
+ 	}
+
+ 	#bio p{
+ 		margin-top:5px;
+ 		width:45%;
+ 		margin:auto;
+ 	}
+
+ 	#work #title, #passions #title {
+ 		color:#009926;
+ 	}
+
+ 	#work h2, #passions h2 {
+ 		font-size:40px;
+ 	}
+
+ 	#worktable {
+ 		margin:0px auto;
+ 		width:100%;
+ 	}
+
+ 	#companyimg { 
+ 		float:left;
+ 		width:150px;
+ 		position:relative;
+ 		top:25px; /* moving pics up 25 px */
+ 		margin-left:10%
+ 	}
+
+ 	#companyimgdown {
+ 		float:left;
+ 		width:150px;
+ 		position:relative;
+ 		top:22px;
+ 		/*bottom:10px; /* moving pics up 25 px */
+ 		margin-left:10%;
+ 	}
+
+ 	#work #description, #passions #description {
+ 		float:left;
+ 		display:inline-block;
+  	    width:65%;
+  	    margin-left:30px;
+ 	}
+
+ 	#work h3, #passions h3 {
+ 		text-align:left;
+ 		margin-bottom:5px;
+ 	}
+
+ 	#work h4, #passions h4 {
+ 		margin-top:0px;
+ 	}
+
+ 	#tedvid {
+ 		text-decoration:none;
+ 	}
+
+ 	/* Resume */
+ 	#resume {
+ 		text-align:center;
+ 	}
+
+ 	#resume a, #resume p {
+ 		text-decoration:none;
+ 		font-size:16px;
+ 		margin-bottom:3px;
+ 	}
+
+ 	#resume img {
+ 		width:80%;
+ 		border: #000000 1px solid;
+ 	}
+
+
+ 	/* Testimonial Main-Col */
+	ul#testimoniallist li {
+ 		list-style:none;
+ 		padding:20px;
+ 		border: #bfbfbf solid 1.5px;
+ 		margin-bottom:10px;
+ 		background:#e8e8e8;
+ 		font-size:18px;
+ 	}
+
+	footer {
+ 		padding:5px;
+ 		margin-top:20px;
+ 		color:#ffffff;
+ 		background-color:#e8491d;
+ 		text-align:center;
+ 	}
+
+ 	ul#testimoniallist li #quoteperson {
+ 		font-size:15px;
+ 	}
+
+ 	.dark {
+		padding:15px;
+		background:#35424a;
+		color:#ffffff;
+		margin-top:10px;
+		margin-bottom:10px;
+	}
+
+ 	/* Contact me */
+ 	.contactme input, .contactme textarea {
+ 		width:90%;
+ 		padding:5px;
+ 		margin-bottom:15px;
+ 	}
+
+ 	.contactme textarea {
+ 		height:85px;
+ 	}
+
+ 	#name, #email {
+ 		font-size:14px;
+ 	}
+
+ 	#message {
+ 		font-size:12px;
+ 		margin-bottom:0px;
+ 	}
+
+ 	#namelabel, #emaillabel, #messagelabel {
+ 		font-size:17px;
+ 	}
+
+ 	#gform {
+ 		text-align:center;
+ 	}
+
+ 	#namelabel, #emaillabel, #messagelabel {
+ 		display:block;
+ 		text-align:left;
+ 		
+ 		margin-left:4.3%;
+ 		margin-bottom:0px;
+ 	}
+
+ 	#gformbox1, #gformbox2, #gformbox3 {
+ 		margin-top:0px;
+ 		margin-bottom:5px;
+ 	}
+
+ 	#form p, #form h2{
+ 		text-align:center;
+ 	}
+
+ 	#thankyou_message {
+ 		text-align:center;
+ 	}
+
+ 	#response {
+ 		font-size:20px;
+ 	}
+
+ 	#linkedin a{
+ 		text-decoration:none;
+ 		font-size:20px;
+ 		margin-bottom:0px;
+ 		margin-left:10px;
+ 		padding:0px;
+ 	}
+
+ 	#linkedin a:link {
+ 		color:#0077b5;
+ 	}
+
+ 	#linkedin, #email {
+ 		font-size:20px;
+ 		margin:0px
+ 	}
+
+ 	/* Media Queries */
+ 	@media(max-width:899px) { /* problem is setting the pixel width up above as set number */
+ 		#work #description, #passions #description {
+	 		float:none;
+	 		display:inline-block;
+	  	    width:100%;
+	  	    margin:auto; 		
+	  	}
+
+	  	#companyimg { 
+	 		float:none
+	 		width:150px;
+	 		position:relative;
+	 		top:25px; /* moving pics up 25 px */
+	 		display:inline-block;
+	 		text-align:center;
+	 		margin: 0 auto;
+	 		margin-bottom:10px;
+	 	}
+
+	 	#companyimgdown {
+	 		float:none;
+	 		width:150px;
+	 		position:relative;
+	 		bottom:0px; /* moving pics up 25 px */
+	 		margin-left:0%;
+ 		}
+ 	}
+
+ 	@media(max-width: 768px) {
+ 		header #branding, 
+ 		header nav, 
+ 		header nav li{
+ 			float:none;
+ 			text-align:center;
+ 			width:100%;
+ 		}
+
+ 		#bio p {
+ 			width:70%;
+ 		}
+
+ 		#work #description, #passions #description {
+	 		float:none;
+	 		display:inline-block;
+	  	    width:100%;
+	  	    margin:auto; 		
+	  	}
+	  	
+
+ 		.contactme button {
+ 			display:block;
+ 			width:100%;
+ 		}
+ 		
+
+ 		#resume img {
+ 			width:99%;
+ 		}
+ 	}
+ 	
+ 	@media(max-width:480px){ /* problem is setting the pixel width up above as set number */
+ 		#work {
+ 			float:none;
+ 			margin-left:0px;
+ 			margin-right:0px;
+ 			width:100%;
+ 		}
+
+ 		#bio p {
+ 			width:100%;
+ 		}
+
+ 		#work #description, #passions #description {
+	 		float:none;
+	 		display:inline-block;
+	  	    width:100%;
+	  	    margin:auto; 		
+	  	}
+ 	}
